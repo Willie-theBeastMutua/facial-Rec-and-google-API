@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Face Detection
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+    <ion-item>
+      <ion-input lines=“none” [(ngModel)]="fName" placeholder="First Name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input [(ngModel)]="lName" placeholder="Second Name"></ion-input>
+    </ion-item>
+    <ion-button (click)="register()">Detect Faces</ion-button>
+
+
+    <ion-button (click)="recognise()">Recognize Face</ion-button>
+    <ion-button (click)="location()">Recognize Face</ion-button>
+
+    <ion-img [src]="url" *ngIf="url"></ion-img>
+  </div>
+</ion-content>

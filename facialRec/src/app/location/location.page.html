@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>location</ion-title>
+    <ion-button (click)="tokencom()">Navigate to KenCom</ion-button>
+
+  </ion-toolbar>
+</ion-header>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDac6ZrCZExw86GubhTfRqVWJs0-RVy40U&libraries=geometry&callback=initMap"></script>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">location</ion-title>
+    </ion-toolbar>
+  </ion-header>
+ <div class = 'maps'>
+  <capacitor-google-map id = "map"></capacitor-google-map>
+ </div>
+ <div>
+  <ion-button>Navigate to KenCom</ion-button>
+ </div>
+</ion-content>
