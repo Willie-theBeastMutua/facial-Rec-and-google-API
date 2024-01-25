@@ -1,0 +1,11 @@
+Directions API
+https://maps.googleapis.com/maps/api/directions
+
+research link: https://developers.google.com/maps/documentation/directions/
+https://developers.google.com/maps/documentation/javascript/examples/directions-simple
+https://developers.google.com/maps/documentation/javascript/examples/directions-panel
+https://developers.google.com/maps/documentation/javascript/examples/directions-complex
+
+
+https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
+https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
